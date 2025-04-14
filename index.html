@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mangku Rinjani</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-white p-4 shadow-md flex justify-between items-center">
+    <div class="text-xl font-bold text-blue-600">Mangku Rinjani</div>
+    <button id="menu-toggle" class="md:hidden text-2xl">☰</button>
+    <ul id="menu" class="hidden md:flex space-x-4 text-gray-700 font-medium">
+      <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+      <li><a href="#produk" class="hover:text-blue-500">Produk</a></li>
+      <li><a href="#lokasi" class="hover:text-blue-500">Lokasi</a></li>
+      <li><a href="#form-booking" class="hover:text-blue-500">Form Booking</a></li>
+      <li><a href="fotoProduk.html" class="hover:text-blue-500">Foto Produk</a></li>
+    </ul>
+  </nav>
+
+  <!-- Toggle Script -->
+  <script>
+    document.getElementById("menu-toggle").addEventListener("click", () => {
+      document.getElementById("menu").classList.toggle("hidden");
+    });
+  </script>
+
+  <!-- HOME -->
+  <!-- HOME -->
+<!-- HOME -->
+<section id="home" class="relative h-screen bg-cover bg-center flex items-center justify-center text-white text-center px-4" style="background-image: url('img/istockphoto-591992956-612x612.jpg');">
+  <!-- Lapisan Gelap -->
+  <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+  <!-- Konten -->
+  <div class="relative z-10 max-w-xl; class="mt-6 flex space-x-4 justify-center"">
+    <h2 class="text-4xl font-bold mb-4">Selamat Datang di Toko Rental Alat Outdoor</h2>
+    <h3 class="text-xl leading-relaxed">Kami menyediakan berbagai alat pendakian.<br>Kami tunggu kedatangan Anda.<br><strong>Salam Lestari!</strong></h3>
+    <a href="https://wa.me/6287851260994" target="_blank" style="margin:12px;">
+      <button class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-lg shadow transition duration-300">
+        WhatApp
+      </button>
+    </a>
+    <a href="https://www.instagram.com/mangkurinjani/" target="_blank">
+      <button class="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded-lg shadow transition duration-300">
+        Instagram
+      </button>
+    </a>
+  </div>
+ 
+  
+
+
+</section>
+
+
+
+  <!-- PRODUK -->
+  <section id="produk" class="p-8 bg-white">
+    <h2 class="text-2xl font-bold mb-6 text-center">Daftar Produk</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-gray-100 p-4 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Keril</h3>
+        <p class="text-gray-700 mb-2">Rp30.000 / hari</p>
+        <a href="#form-booking"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Booking</button></a>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Hydro Pack</h3>
+        <p class="text-gray-700 mb-2">Rp15.000 / hari</p>
+        <a href="#form-booking"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Booking</button></a>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Tracking Pole</h3>
+        <p class="text-gray-700 mb-2">Rp15.000 / hari</p>
+        <a href="#form-booking"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Booking</button></a>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Tenda 4L</h3>
+        <p class="text-gray-700 mb-2">Rp40.000 / hari</p>
+        <a href="#form-booking"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Booking</button></a>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Tenda 2L</h3>
+        <p class="text-gray-700 mb-2">Rp35.000 / hari</p>
+        <a href="#form-booking"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Booking</button></a>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Head Lamp</h3>
+        <p class="text-gray-700 mb-2">Rp5.000 / hari</p>
+        <a href="#form-booking"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Booking</button></a>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Matras</h3>
+        <p class="text-gray-700 mb-2">Rp10.000 / hari</p>
+        <a href="#form-booking"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Booking</button></a>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Kompor</h3>
+        <p class="text-gray-700 mb-2">Rp10.000 / hari</p>
+        <a href="#form-booking"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Booking</button></a>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Nesting</h3>
+        <p class="text-gray-700 mb-2">Rp10.000 / hari</p>
+        <a href="#form-booking"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Booking</button></a>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Power Bank</h3>
+        <p class="text-gray-700 mb-2">Rp15.000 / hari</p>
+        <a href="#form-booking"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Booking</button></a>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Sepatu</h3>
+        <p class="text-gray-700 mb-2">Rp20.000 / hari</p>
+        <a href="#form-booking"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Booking</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOKASI -->
+<section id="lokasi" class="p-8 text-center bg-gray-50">
+  <h2 class="text-2xl font-bold mb-4">Lokasi Kami</h2>
+  <p class="mb-4 text-gray-700">Jl. Segara Anak, Dusun Aiklisung, Desa Karang Baru, Kec. Wanasaba, LOTIM, Nusa Tenggara Barat</p>
+
+  <div class="flex justify-center">
+    <a href="https://www.google.com/maps/place/Mangku+Rinjani+outdoor+rental/@-8.5388941,116.5403391,17z" target="_blank" class="block w-full md:w-2/3 h-64 rounded-xl shadow overflow-hidden">
+      <iframe
+        class="w-full h-full pointer-events-none"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.934684277609!2d116.54033911478532!3d-8.538894093873164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcc370044412e95%3A0x49cb2167cd03dace!2sMangku%20Rinjani%20outdoor%20rental!5e0!3m2!1sid!2sid!4v1712737269000!5m2!1sid!2sid"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </a>
+  </div>
+</section>
+
+
+  <!-- FORM BOOKING -->
+  <section id="form-booking" class="p-8 bg-white">
+    <h2 class="text-2xl font-bold mb-6 text-center">Form Booking</h2>
+    <form action="proses.php" method="POST" class="max-w-xl mx-auto space-y-4">
+      <input type="text" name="nama" placeholder="Nama Lengkap" required class="w-full p-3 border rounded" />
+      <input type="text" name="produk" placeholder="Produk yang dibooking" required class="w-full p-3 border rounded" />
+      <input type="date" name="tanggal" required class="w-full p-3 border rounded" />
+      <input type="number" name="durasi" placeholder="Durasi (malam)" required class="w-full p-3 border rounded" />
+      <button type="submit" class="w-full bg-green-500 text-white py-3 rounded hover:bg-green-600">Kirim Booking</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-800 text-white p-6 text-center">
+    <p>&copy; Edwin Adriansyah 2025 Semua hak dilindungi.</p>
+  </footer>
+
+</body>
+</html>
